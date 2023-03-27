@@ -1,0 +1,28 @@
+.color-item-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+
+  .color-data-wrapper {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    p {
+      max-width: calc(100% - 40px - 10px);
+      overflow-x: auto;
+      padding: 10px 0;
+      margin: 0;
+    }
+  }
+
+  .remove-color-btn {
+    width: 35%;
+    background: none;
+    border: 1px solid #d6dadf;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    height: 40px;
+  }
+}
